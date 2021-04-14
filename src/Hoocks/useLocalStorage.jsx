@@ -11,6 +11,7 @@ function useLocalStorage(){
         localStorage.setItem(localStorageKey, JSON.stringify(newState));
       }
       return [state, setLocalState];
+      
 }
 
 export default useLocalStorage
